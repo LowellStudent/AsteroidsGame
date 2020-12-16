@@ -1,4 +1,4 @@
-ArrayList<Asteroid>hob =new ArrayList<Asteroid>();
+ArrayList<Asteroid> hob =new ArrayList<Asteroid>();
 Spaceship bob=new Spaceship();
 Star[]job=new Star[100];
 public void setup() 
@@ -11,7 +11,6 @@ public void setup()
   }
   for (int i=0; i<20; i++)
   {
-    //hob.add(new Asteroid());
     hob.add(new Asteroid());
   }
 }
