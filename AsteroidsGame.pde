@@ -1,4 +1,4 @@
-ArrayList<Asteroid>hob =new ArrayList<Asteroid>();
+//ArrayList<Asteroid>hob =new ArrayList<Asteroid>();
 Spaceship bob=new Spaceship();
 Star[]job=new Star[100];
 public void setup() 
@@ -11,7 +11,7 @@ public void setup()
   }
   for (int i=0; i<20; i++)
   {
-    hob.add(new Asteroid());
+   // hob.add(new Asteroid());
   }
 }
 public void draw() 
@@ -23,14 +23,14 @@ public void draw()
   {
     job[k].show();
   }
-  for (int j=0; j<hob.size(); j++)
+  /*for (int j=0; j<hob.size(); j++)
   {
     hob.get(j).show();
     hob.get(j).move();
     float d= dist((float)bob.getX(), (float)bob.getY(), (float)hob.get(j).getX(), (float)hob.get(j).getY());
     if (d<10)
       hob.remove(j);
-  }
+  }*/
 }
 public void keyPressed()
 {
