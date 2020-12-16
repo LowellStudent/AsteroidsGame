@@ -23,14 +23,14 @@ public void draw()
   {
     job[k].show();
   }
-  /*for (int j=0; j<hob.size(); j++)
+  for (int j=0; j<hob.size(); j++)
   {
     hob.get(j).show();
     hob.get(j).move();
     float d= dist((float)bob.getX(), (float)bob.getY(), (float)hob.get(j).getX(), (float)hob.get(j).getY());
     if (d<10)
       hob.remove(j);
-  }*/
+  }
 }
 public void keyPressed()
 {
